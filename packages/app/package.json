@@ -1,6 +1,6 @@
 {
   "name": "@seart/app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@seart/styles": "^0.0.3",
+    "@seart/styles": "^0.0.4",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
