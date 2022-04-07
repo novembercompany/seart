@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.6.3"
+  },
+  "name": "seart",
+  "scripts": {
+    "build": "lerna exec --scope shared -- tsc",
+    "start": "cd packages/app && yarn start"
+  }
+}
