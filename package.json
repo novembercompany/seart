@@ -5,7 +5,7 @@
   },
   "name": "seart",
   "scripts": {
-    "build": "lerna exec --scope shared -- tsc",
+    "build": "lerna exec --scope styled-components -- tsc",
     "start": "cd packages/app && yarn start"
   }
 }
