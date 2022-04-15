@@ -3,17 +3,17 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const user = {
-    name: 'Tom Cook',
-    email: 'tom@example.com',
+    name: 'Usbo Kirishima',
+    email: 'info@usbokirishima.ninja',
     imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://images-ext-2.discordapp.net/external/OQcG8Rf_bhHVZVB7XrSLgnLWGb9KBtqzZJyRSLZoz3Y/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/848463685374443530/65319761189707b59510ca906f333972.webp?width=415&height=415',
 }
 const navigation = [
+    { name: 'Home', href: '#', current: false },
     { name: 'Dashboard', href: '#', current: false },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
-    { name: 'Reports', href: '#', current: false },
+    { name: 'Categories', href: '#', current: false },
+    { name: 'Events', href: '#', current: false },
+    { name: 'Support', href: '#', current: false },
 ]
 const userNavigation = [
     { name: 'Your Profile', href: '#' },
